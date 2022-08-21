@@ -1,0 +1,60 @@
+.benefits {
+    padding-top: $section-padding;
+   &__list{
+    display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+   }
+   &__item {
+    width: 270px;
+    margin-right: 30px;
+    &:before {
+        display: block;
+        content: "";
+        width: 270px;
+        height: 120px;  
+      border-radius: 4px;
+      background-color: $white-background-color;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70px;
+      margin-bottom: 30px; 
+    }
+    &:nth-child(1)::before {
+        background-image: url("../images/antenna\ 1.svg"); 
+        }
+        &:nth-child(2)::before {
+            background-image: url("../images/clock\ 1.svg");
+          }
+
+        &:nth-child(3)::before {
+   
+            background-image: url("../images/diagram\ 1.svg"); 
+          }
+
+        &:nth-child(4)::before {
+  
+            background-image: url("../images/astronaut\ 1.svg"); 
+           
+          }
+          
+  }
+  &__list > li:last-child {
+    margin-right: 0; 
+  }
+&__title {
+    margin-bottom: 10px;
+    
+      font-size: $basic-font-size;
+    line-height: calc(16/14);
+    letter-spacing: $basic-letter-spacing;
+    text-transform: uppercase;
+    color: $brand-text-color;
+    }
+    &__text {
+        font-size: $basic-font-size;
+      line-height: calc(24/14);
+      letter-spacing: $basic-letter-spacing;
+      color: $secondary-text-color;}
+  }

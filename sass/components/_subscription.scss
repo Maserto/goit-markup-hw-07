@@ -1,0 +1,31 @@
+.subscription__form {
+    padding: 0;
+    display: flex;
+  }
+
+  .subscription__slogan {
+    font-weight: 700;
+    font-size: $basic-font-size;
+    line-height: 1.4;
+    letter-spacing: $basic-letter-spacing;
+    text-transform: uppercase;
+    color:$white-text-color;
+    margin-bottom: 20px;
+  }
+  .subscription__input {
+    width: 358px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid $subscription-border-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: $common-border-radius;
+    background: transparent;
+    outline: none;
+      color: $white-text-color;
+      &::placeholder {
+        font-size: 16px;
+      line-height: calc(20/16);
+      color:$footer-text-color;
+      
+      }
+  }

@@ -1,0 +1,50 @@
+.examples {
+  
+    padding-top: $section-padding;
+    padding-bottom:  $section-padding;
+    li {
+        margin-right: $basic-letter-spacing;
+        &:last-child {
+            margin-right: 0; 
+          } 
+      }
+      &__title  {
+        margin: 0;
+        
+          font-size: 36px;
+          line-height: calc(42/36);
+          text-align: center;
+          letter-spacing: $basic-letter-spacing;
+          color: $brand-text-color;
+          }
+          &__item {
+            position: relative;
+          }
+          &__footer {
+            position: absolute;
+            bottom: 0px;
+        
+            width: 370px;
+            height: 70px;
+        align-items: center;
+        justify-content: center;
+        background-color: 
+        $hero-background-color;
+          }
+          &__description {
+            display: flex;     
+       align-items: center;
+       justify-content: center;
+     
+           width: 370px;
+           height: 70px;  
+     font-weight: 700;
+     font-size: $basic-font-size;
+     line-height: calc(16/14);
+     letter-spacing: $basic-letter-spacing;
+     text-transform: uppercase;
+     color:$white-text-color;
+   
+       }
+
+  }

@@ -1,0 +1,50 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;   
+}
+li {
+    list-style-type: none;}
+
+    h1 , h2 , h3 , p {
+        margin: 0;
+        padding: 0;
+      } 
+
+    .link {
+        text-decoration: none;
+        &:hover , &:focus{
+            color: $accent-color;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+      }     
+      .logo-link {
+        text-decoration: none;
+      } 
+      .container { 
+        width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto; margin-right: auto;
+      }
+      .our-logo {
+        font-family: $logo-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31/26); 
+      }
+      
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
