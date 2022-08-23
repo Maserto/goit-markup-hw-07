@@ -13,8 +13,9 @@ li {
 
     .link {
         text-decoration: none;
+        color: $secondary-text-color;
         &:hover , &:focus{
-            color: $accent-color;
+            color:$accent-color;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
       }     
@@ -28,7 +29,7 @@ li {
       margin-left: auto; margin-right: auto;
       }
       .our-logo {
-        font-family: $logo-font;
+        font-family:$logo-font;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
@@ -48,3 +49,4 @@ li {
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
+      .pointer {cursor: pointer;}

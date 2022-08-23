@@ -1,52 +1,50 @@
 //Fonts
-
 $main-font: "Roboto", sans-serif;
 $logo-font: "Raleway", sans-serif;
 
-$basic-font-size: 14px;
-$basic-letter-spacing: 0.03em;
+$basic-font-size:14px;
+$basic-letter-spacing:0.03em;
 
 //Text colors
-
-$brand-text-color: rgba(33, 33, 33);
-$white-text-color: rgba(255, 255, 255);
-$secondary-text-color: rgba(117, 117, 117, 1);
+$brand-text-color:rgba(33, 33, 33, 1);
+$white-text-color:rgba(255, 255, 255);
+$secondary-text-color:rgba(117, 117, 117, 1);
 $footer-text-color:rgba(255, 255, 255, 0.6);
-$link-icon-color: rgba(175, 177, 184, 1);
+$link-icon-color:rgba(175, 177, 184, 1);
 $footer-social-color: rgba(255, 255, 255, 0.1);
-$modal-close-icon-color: rgba(0, 0, 0, 1);
-$modal-placeholder-color: rgba(117, 117, 117, 0.5);
+$modal-close-icon-color:rgba(0, 0, 0, 1);
+$modal-placeholder-color:rgba(117, 117, 117, 0.5);
 
 //Backgroung colors
-$hero-background-color: rgba(47, 48, 58);
-$description-background-color:  rgba(33, 150, 243, 0.9);
-$white-background-color:  rgba(245, 244, 250);
-$footer-background-color:  rgba(	47, 48, 58);
+$hero-background-color:rgba(47, 48, 58, 1);
+$description-background-color:rgba(33, 150, 243, 0.9);
+$white-background-color:rgba(245, 244, 250);
+$footer-background-color:  rgba(47, 48, 58, 1);
+$examples-footer-color: rgba(47, 48, 58, 0.8);
 $backdrop-color: rgba(0, 0, 0, 0.2);
-$modal-background-color: rgb(255, 255, 255);
+$modal-background-color: rgba(255, 255, 255, 1);
 
-$button-accent-color:  rgba(24, 140, 232);
+$button-accent-color:  rgba(24, 140, 232, 1);
 
 //Overlays
 $hero-overlay-color: rgba(47, 48, 58, 0.4);
 
 //Borders
-$white-border-color: rgba(	238, 238, 238);
+$white-border-color: rgba(	238, 238, 238, 1);
 $common-border-radius: 4px;
 $subscription-border-color:  rgba(255, 255, 255, 0.3);
 $modal-close-btn-border-color:  rgba(0, 0, 0, 0.1);
 $input-border-color:  rgba(33, 33, 33, 0.2);
 
 //Brand colors
-
-$accent-color: #2196F3;
+$accent-color:rgba(	33, 150, 243, 1);
 
 //Gaps
 
-$basic-item-gap: 30px;
-$secondary-item-gap: 10px;
-$button-padding: 10px;
-$section-padding: 94px;
+$basic-item-gap:30px;
+$secondary-item-gap:10px;
+$button-padding:10px;
+$section-padding:94px;
 
 //Shadows
 

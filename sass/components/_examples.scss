@@ -2,8 +2,15 @@
   
     padding-top: $section-padding;
     padding-bottom:  $section-padding;
+    &__list {
+      display: flex;
+      margin-top: 50px;
+      padding-left: 0;
+      margin-bottom: 0;
+      justify-content: center;
+    }
     li {
-        margin-right: $basic-letter-spacing;
+        margin-right: $basic-item-gap;
         &:last-child {
             margin-right: 0; 
           } 
@@ -29,7 +36,7 @@
         align-items: center;
         justify-content: center;
         background-color: 
-        $hero-background-color;
+        $examples-footer-color;
           }
           &__description {
             display: flex;     

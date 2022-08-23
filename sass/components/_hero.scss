@@ -1,5 +1,5 @@
 .hero { 
-    background-color: $hero-background-color;
+    background-color:$hero-background-color;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -11,7 +11,7 @@
           to right, 
          $hero-overlay-color, 
          $hero-overlay-color
-          ), url(/images/img00.jpg)
+          ), url(/images/img00.jpg);
       
  
       margin-right: auto;
@@ -26,7 +26,7 @@
         margin-left: 215px;
         margin-bottom: $basic-item-gap;
         
-        
+        font-family:$main-font;
           font-weight: 900;
         font-size: 44px;
         line-height: calc(60/44);

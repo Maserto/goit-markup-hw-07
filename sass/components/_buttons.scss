@@ -24,7 +24,13 @@
     background-color: $accent-color;
  } 
 }
-
+.hero-button {
+  padding-top: 10px;
+  padding-right:32px;
+  padding-bottom:10px;
+  padding-left:32px;
+  
+  }
 .btn {
     border: 0;
     font-weight: 700;
@@ -51,7 +57,7 @@
     display: flex;
     &::after {
         content: '';
-        background-image: url(../images/icon\ send.svg);
+        background-image: url(../images/icon\send.svg);
         height: 24px;
         width: 24px;
         margin-left: $secondary-item-gap;

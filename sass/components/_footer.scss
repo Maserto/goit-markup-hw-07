@@ -4,8 +4,7 @@
     padding-bottom: 60px;
     background-color: $footer-background-color;
     &__logo {
-        color: $white-text-color;
-        span {$accent-color }
+        color: $white-text-color; 
       }
       &__adress {
         margin-bottom: 0;
@@ -64,5 +63,6 @@
         margin-left: 70px;
         margin-right: 93px;
       }
+      span  {color:$accent-color;}
 
     
