@@ -1080,6 +1080,7 @@ textarea {
 }
 .portfolio__container {
   position: relative;
+  overflow: hidden;
 }
 .portfolio__description {
   display: inline-block;
@@ -1113,6 +1114,10 @@ textarea {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
+  border-right: solid rgb(238, 238, 238);
+  border-bottom: solid rgb(238, 238, 238);
+  border-left: solid rgb(238, 238, 238);
+  border-width: 1px;
 }
 .portfolio__item:nth-child(3n) {
   margin-right: 0;
@@ -1128,10 +1133,6 @@ textarea {
   padding-bottom: 20px;
   padding-left: 24px;
   background-color: rgb(255, 255, 255);
-  border-right: solid rgb(238, 238, 238);
-  border-bottom: solid rgb(238, 238, 238);
-  border-left: solid rgb(238, 238, 238);
-  border-width: 1px;
 }
 
 .portfolio-list {

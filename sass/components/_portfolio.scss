@@ -52,6 +52,7 @@
         }
         &__container{
             position: relative;
+            overflow: hidden;
           }
      &__description{
         display:inline-block;
@@ -82,6 +83,10 @@
           margin-right: $basic-item-gap;
           margin-bottom: $basic-item-gap;
           width: 370px;
+          border-right: solid $white-border-color;
+    border-bottom: solid $white-border-color;
+    border-left: solid $white-border-color;
+    border-width: 1px; 
     
           &:nth-child(3n) {
             margin-right: 0;   
@@ -100,10 +105,7 @@
     padding-bottom: 20px;
     padding-left: 24px;
     background-color:$white-text-color;
-    border-right: solid $white-border-color;
-    border-bottom: solid $white-border-color;
-    border-left: solid $white-border-color;
-    border-width: 1px; 
+    
   }
   .portfolio-list {
     display: flex;
