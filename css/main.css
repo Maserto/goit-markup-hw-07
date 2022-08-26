@@ -79,6 +79,9 @@ body {
   cursor: pointer;
 }
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
 .page-header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +89,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #ECECEC;
 }
 .page-header__logo {
   margin-right: 93px;
