@@ -50,11 +50,13 @@
   }
   }
   .subscription-btn {
+    
     padding: $button-padding 28px;
     min-width: 200px;
     margin-left: 12px;
-    align-items: center;
-    display: flex;
+    // justify-content: center;
+    
+    // display: flex;
     &::after {
         content: '';
         background-image: url(../images/icon\send.svg);

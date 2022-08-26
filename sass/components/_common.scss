@@ -10,7 +10,9 @@ li {
         margin: 0;
         padding: 0;
       } 
-
+      body {
+        font-family:$main-font;
+      }
     .link {
         text-decoration: none;
         color: $secondary-text-color;

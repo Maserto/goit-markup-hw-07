@@ -36,6 +36,7 @@
        
    
     &__title {
+
         margin-bottom: 4px;
   font-size: 18px;
   line-height: calc(36/18);
@@ -63,7 +64,7 @@
         height: 100%;
         color:$white-text-color;
         background-color: $description-background-color;
-        transform: translateY(+100%);
+        transform: translateY(+101%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
         padding-top: 63px;
